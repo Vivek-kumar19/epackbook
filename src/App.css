@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Roboto:wght@300&display=swap');
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #eee;
+}
+.bg_color{
+  background-color: #00A1E5;
+}
+.cl_green{
+  color: #00A1E5;
+}
+.wh_color{
+  background-color: white;
+}
+.color_wh{
+  color: white !important;
+}
+.nav-link{
+ color: white !important;
+ font-weight: 500;
+ font-family: 'Poppins', sans-serif;
+ font-size: 16px;
+}
+
+.br_l{
+  border-left: 1px solid #fff;
+}
+.page_title{
+font-weight: 600;
+font-size: 14px;
+padding: 15px 0;
+}
+
+.form_slot{
+  background-color: white;
+  margin: 20px;
+  border-radius: 25px;
+  padding: 20px;
+}
+.form_slot .form-label{
+  margin-top: 20px;
+}
+.terms_condition{
+  width: 100%;
+  min-height: 200px;
+  border: 1px solid #dee2e6;
+  padding: 10px ;
+  border-radius: 10px;
+  background-color: white;
+  margin-top: 40px ;
+}
+.color_bl{
+  color: #00A1E5;
+}
+.sidebar
+{
+  background: white;
+  padding: 15px 10px;
+  margin: 30px 0 15px 0;
+  border-radius: 25px;
+  min-height: 70vh;
+}
+.sidebar ul{
+  padding: 0;
+}
+.sidebar ul>li{
+  list-style: none;
+  margin-bottom: 18px;
+}
+.sidebar .bold{
+  font-weight: 600;
+  font-size: 18px;
+}
+.layoutmargin{
+  margin: 30px 0 15px 0;
+  background-color: white;
+  padding: 15px 10px;
+  border-radius: 25px;
+}
+.layoutmargin p{
+  font-size: 14px;
+}
+.layoutmargin h6{
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid #dee2e6;
+  font-weight: 600;
+}
+.answers p{
+  color: #00A1E5;
+}
+.foricdiv{
+  height: 32px ;
+  overflow: hidden;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login_bg{
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(188,228,253);
+  background: radial-gradient(circle, rgba(188,228,253,1) 50%, rgba(14,142,220,1) 100%);
+}
+.bg_white{
+  background-color: white;
+}
+.title{
+  font-size: 36px;
+  font-weight: 700;
+  font-family: 'Roboto', sans-serif;
+}
+.br_25{
+  border-radius: 25px;
+}
+.frgt_pswd{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.frgt_pswd span{
+cursor: pointer;
+}
+
+.cl_light{
+  color: #A7A7A7;
+}
+.rm_me label{
+  padding-left: 10px ;
+
+}
+.loginwith{
+  display: flex;
+    align-items: center;
+    text-align: center;
+}
+.loginwith div{
+  width: 100%;
+  margin: 0 10px;
+}
+.loginwith span{
+  height: 1px !important;
+  background-color: #000;
+  width: 100%;
+}
+
+.loginwith_ic{
+display: flex;
+justify-content: space-evenly;
+}
+.forlogimg{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.menu_btn{
+  border-radius: 50%;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 5px;
+  color: white;
+}
+
