@@ -8,8 +8,6 @@ import AccSubPlanSlot from "./AccSubPlanSLot";
 
 
 
-
-
 const SubPlanSlot = () =>{
 
         const Accordionstyle = {
