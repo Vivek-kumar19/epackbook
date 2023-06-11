@@ -6,10 +6,21 @@ import PersonIcon from '@mui/icons-material/Person';
 import CommentIcon from '@mui/icons-material/Comment';
 
 
-const Sidebar = () =>{
+const Sidebar = (props) =>{
+
+    let style;
+    
+  if(props.permission == 'no_margin')
+  {
+    style = {
+        marginTop:'0',
+        borderRadius: '0 0 25px 25px'
+    }
+  }
+
     return(
         <>
-        <div className="sidebar">
+        <div className="sidebar" style={style} >
             <ul>
                 <li className="bold">{<HomeIcon/>} Quick Links</li>
                 <li>{<SwitchAccountIcon/>} Profile</li>
