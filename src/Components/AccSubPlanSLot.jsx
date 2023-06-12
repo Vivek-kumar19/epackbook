@@ -23,7 +23,7 @@ const AccSubPlanSlot = () =>{
  <Accordion defaultActiveKey={['0']} alwaysOpen>
 
 <Accordion.Item eventKey="0" style={Accordionstyle}>
-  <Accordion.Header>Basic</Accordion.Header>
+  <Accordion.Header>Basic Plans</Accordion.Header>
   <Accordion.Body>
       <Form>
       <div className="modules">
@@ -34,7 +34,7 @@ const AccSubPlanSlot = () =>{
       <h6>Quotation</h6>
       <Form.Check aria-label="option 1" className="for_checkinputs" />
       </div>
-      
+
       <div className="hrline"></div>
 
       <Container className="py-4 bg-eee" >
@@ -53,20 +53,20 @@ const AccSubPlanSlot = () =>{
 <tbody>
   <tr>
     <td>ADD</td>
-    <td><Form.Check aria-label="option 1" /></td>
-    <td><Form.Control  type='text' /></td>
+    <td><Form.Check className="for_checkinputs"  aria-label="option 1" /></td>
+    <td><Form.Control type='text' /></td>
 
   </tr>
   <tr>
     <td>DELETE</td>
-    <td><Form.Check aria-label="option 1" /></td>
-    <td><Form.Control  type='text' /></td>
+    <td><Form.Check className="for_checkinputs"  aria-label="option 1" /></td>
+    <td><Form.Control type='text' /></td>
   </tr>
 
   <tr>
     <td>EDIT</td>
-    <td><Form.Check aria-label="option 1" /></td>
-    <td><Form.Control  type='text' /></td>
+    <td><Form.Check  className="for_checkinputs" aria-label="option 1" /></td>
+    <td><Form.Control type='text' /></td>
   </tr>
  
 </tbody>
@@ -74,10 +74,10 @@ const AccSubPlanSlot = () =>{
 
 
      <Row>
-      <Col md={3}> <div className="modules_child bg_white p-2">INVOICE <Form.Check aria-label="option 1" /></div></Col>
-      <Col md={3}> <div className="modules_child bg_white p-2">BILTY <Form.Check aria-label="option 1" /></div></Col>
-      <Col md={3}> <div className="modules_child bg_white p-2">MONEY RECEIPT <Form.Check aria-label="option 1" /></div></Col>
-      <Col md={3}> <div className="modules_child bg_white p-2">CAR CONDITION <Form.Check aria-label="option 1" /></div></Col>
+      <Col md={3}> <div className="modules_child bg_white p-2">INVOICE <Form.Check aria-label="option 1" className="for_checkinputs" /></div></Col>
+      <Col md={3}> <div className="modules_child bg_white p-2">BILTY <Form.Check aria-label="option 1" className="for_checkinputs" /></div></Col>
+      <Col md={3}> <div className="modules_child bg_white p-2">MONEY RECEIPT <Form.Check aria-label="option 1" className="for_checkinputs" /></div></Col>
+      <Col md={3}> <div className="modules_child bg_white p-2">CAR CONDITION <Form.Check aria-label="option 1" className="for_checkinputs" /></div></Col>
      </Row>
       
               </Col>

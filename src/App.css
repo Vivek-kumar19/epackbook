@@ -220,7 +220,11 @@ border: 1px solid #eee;
   color: white !important;
 }
 
-.for_checkinputs{
+.for_checkinputs input{
   height: 24px;
   width: 24px;
+}
+.accordion-button:focus{
+  border: unset !important;
+  border-color: unset !important;
 }
