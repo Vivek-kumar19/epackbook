@@ -21,7 +21,7 @@ const stylingforcity={
 function HeaderTwo(props) {
   return (
  <>
-      <Navbar>
+      <Navbar className='bg_white'>
       <Container fluid>
       <Navbar.Brand style={styling} href="#"><ArrowBackIcon/></Navbar.Brand>
       <Navbar.Brand  href="#"><img src= {process.env.PUBLIC_URL +  props.imgSrc} alt={props.imgSrc}></img></Navbar.Brand>

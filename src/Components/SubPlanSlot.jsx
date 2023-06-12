@@ -5,15 +5,12 @@ import Col from 'react-bootstrap/Col';
 import Sidebar from "./Sidebar";
 import HeaderThree from "./HeaderThree";
 import AccSubPlanSlot from "./AccSubPlanSLot";
-
+import Accordion from 'react-bootstrap/Accordion';
 
 
 const SubPlanSlot = () =>{
 
-        const Accordionstyle = {
-            borderRadius : 'none',
-            border: 'unset'
-        }
+       
 
     return(
         <>

@@ -214,3 +214,13 @@ background-color: white;
 border: 1px solid #eee;
 
 }
+.accordion-button:not(.collapsed)
+{
+  background-color: #00A1E5 !important;
+  color: white !important;
+}
+
+.for_checkinputs{
+  height: 24px;
+  width: 24px;
+}

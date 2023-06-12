@@ -1,5 +1,8 @@
 import React from "react";
 
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 import Button from '@mui/material/Button';
 import Accordion from 'react-bootstrap/Accordion';
 import Checkbox from '@mui/material/Checkbox';
@@ -7,10 +10,17 @@ import Form from 'react-bootstrap/Form';
 import Table from 'react-bootstrap/Table';
 
 
+const Accordionstyle = {
+  borderRadius : 'none',
+  border: 'unset'
+}
+
 const AccSubPlanSlot = () =>{
     return(
+
+      
         <>
-                        <Accordion defaultActiveKey={['0']} alwaysOpen>
+ <Accordion defaultActiveKey={['0']} alwaysOpen>
 
 <Accordion.Item eventKey="0" style={Accordionstyle}>
   <Accordion.Header>Basic</Accordion.Header>
@@ -22,14 +32,15 @@ const AccSubPlanSlot = () =>{
       
       <div className="modules_child">
       <h6>Quotation</h6>
-      <Form.Check aria-label="option 1" />
+      <Form.Check aria-label="option 1" className="for_checkinputs" />
       </div>
+      
       <div className="hrline"></div>
 
       <Container className="py-4 bg-eee" >
           <Row>
               <Col>
-              <Table striped bordered hover>
+              <Table  hover>
 <thead>
   <tr>
     
