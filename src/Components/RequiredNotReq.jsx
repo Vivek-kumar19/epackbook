@@ -7,7 +7,7 @@ const RequiredNotReq =(props)=>{
     const opentab = document.getElementById('opentab');
     const targetedelement =document.getElementById('targetedelement');
     let result;
-    let styleforextra;
+    var styleforextra;
 
     // console.log(opentab.value);
 
@@ -22,11 +22,12 @@ const RequiredNotReq =(props)=>{
         overflow:"hidden"
     }
 
-    if(result === "open")
+    if(result == "open")
     {
 styleforextra = {
         height:"auto",
         background:"pink",
+        overflow:"hidden"
     }
     }
 
