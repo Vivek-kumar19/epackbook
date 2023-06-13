@@ -9,6 +9,7 @@ import BranchDetail from "./Pages/BranchDetail";
 import Login from "./Pages/Login";
 import ComRegForm from "./Pages/ComRegForm";
 import SubscriptionPlan from "./Pages/SubscriptionPlan";
+import RequiredNotReq from "../src/Components/RequiredNotReq";
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Route exact path="/branchdetail" element={<BranchDetail></BranchDetail>}></Route>
     <Route exact path="/companyregister" element={<ComRegForm></ComRegForm>}></Route>
     <Route exact path="/subscription" element={<SubscriptionPlan></SubscriptionPlan>}></Route>
+    <Route exact path="/demo" element={<RequiredNotReq></RequiredNotReq>}></Route>
    </Routes>
    </>
   );

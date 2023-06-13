@@ -228,3 +228,9 @@ border: 1px solid #eee;
   border: unset !important;
   border-color: unset !important;
 }
+.f_chunch{
+  display: flex;
+}
+.f_chunch .form-check{
+  margin: 5px 10px;
+}

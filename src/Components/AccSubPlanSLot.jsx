@@ -91,7 +91,7 @@ const AccSubPlanSlot = () =>{
 
 
       </Form>
-  </Accordion.Body>
+</Accordion.Body>
 </Accordion.Item>
 
 

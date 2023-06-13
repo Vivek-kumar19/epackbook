@@ -9,6 +9,10 @@ import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
 import Termscondition from './Termscondition';
 import TextField from '@mui/material/TextField';
+import Checkbox from '@mui/material/Checkbox';
+import RequiredNotReq from './RequiredNotReq';
+const label = { inputProps: { 'aria-label': 'Checkbox demo' } };
+
 
 const ComRegFormCom = () =>{
 
@@ -147,6 +151,13 @@ const ComRegFormCom = () =>{
           <Form.Control type='text' onChange={handlechange}  name='gstno' />
         </Col>
 
+        
+        <Col md={6} sm={12}>
+        <Form.Label>Address :</Form.Label>
+        <Checkbox {...label} />
+        <Checkbox {...label} />
+        </Col>
+
         <Termscondition/>
 
 
@@ -155,6 +166,7 @@ const ComRegFormCom = () =>{
         <Button type='submit' variant="primary">Save</Button>
         </Col>
 
+        <RequiredNotReq name1="Approved" name2="Not Approved"> </RequiredNotReq>
        
       </Row>
     </Form>
@@ -166,3 +178,4 @@ const ComRegFormCom = () =>{
 
 
 export default ComRegFormCom;
+
